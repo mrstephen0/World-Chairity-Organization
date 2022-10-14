@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+.header {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 180px;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-title {
+    color: white;
+    font-size: 60px;
+}
+
+.header-text {
+    color: white;
+    font-size: 30px;
+}
+
+.header-button {
+    text-decoration: none;
+    background-image: linear-gradient(#C6FFDD, #FBD786, #f7797d);
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.donation {
+    text-align: center;
+}
+
+
+.donation-title {
+    color: black;
+    font-size: 50px;
+}
+
+.donation-text {
+    color: black;
+    font-size: 30px;
+}
+
+.note {
+    color: red;
+    font-size: 35px;
+}
+
+.donate-text {
+    font-size: 25px;
+}
+
+.amount h4 {
+    font-size: 20px;
+}
+
+.doller {
+    display: flex;
+    justify-content: center;
+}
+
+.amount {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 80px;
+    margin: 0 20px;
+
+}
+
+.mark {
+    background-color: aquamarine;
+}
+
+#other-amount {
+    font-size: 20px;
+}
+
+.signiture {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr {
+    margin: 0 399px;
+}
+
+.donation-button {
+    text-decoration: none;
+    background-image: linear-gradient(#C6FFDD, #FBD786, #f7797d);
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.plans-heading-text {
+    color: black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.plans-text {
+    font-size: 28px;
+    text-align: center;
+
+
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.cards {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 250px;
+    padding: 20px 20px 40px 20px;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+#education {
+    background-color: #f59396;
+}
+
+#food {
+    background-color: lightpink;
+
+}
+
+#shelter {
+    background-color: lightsalmon;
+}
+
+.contribution {
+    display: flex;
+    padding: 80px;
+}
+
+.contribution-pera {
+    font-size: 20px;
+}
+
+.contribute-button {
+    text-decoration: none;
+    background-image: linear-gradient(#C6FFDD, #FBD786, #f7797d);
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contribution-img {
+    width: 75%;
+    padding-left: 180px;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+}
+
+.allah {
+    color: orangered;
+    font-weight: bolder;
+}
+
+.writer {
+    color: orangered;
+    font-weight: bold;
+}
+
+.company-img {
+    width: 65%;
+    padding-right: 180px;
+}
+
+.company-detais {
+    display: flex;
+    padding: 80px;
+
+}
+
+.details-text {
+    font-size: 20px;
+}
+
+.company-left {
+    width: 60%;
+}
+
+.company-right {
+    width: 40%;
+}
+
+.details-button {
+    text-decoration: none;
+    background-image: linear-gradient(#C6FFDD, #FBD786, #f7797d);
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.email-header {
+    text-align: center;
+}
+
+.email-button {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f7797d;
+    margin: 0 550px 20px 550px;
+}
+
+.button {
+    background-color: rgba(255, 0, 0, 0.521);
+    margin-left: 3px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.icon-img {
+    width: 200px;
+
+}
+
+/* ------------------
+media-quary
+------------------- */
+
+/* --------------
+  for mobile
+-------------- */
+@media screen and (max-width:576px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        height: 100px;
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .header-text {
+        font-size: 15px;
+    }
+
+    .header-text br {
+        display: none;
+    }
+
+    .header-button {
+        font-weight: normal;
+        padding: 7px;
+    }
+
+    .donations-texts {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .donation-title {
+        font-size: 30px;
+    }
+
+    .note {
+        font-size: 25px;
+        padding: 7px 15px;
+    }
+
+    .donation-text {
+        color: black;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .doller {
+        padding-top: 15px;
+    }
+
+    .donation-text br {
+        display: none;
+    }
+
+    .donate-text {
+        font-size: 15px;
+    }
+
+    .donation-button {
+        font-weight: normal;
+        padding: 7px;
+    }
+
+    .plans-heading-text {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .plans-text {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .plans-text br {
+        display: none;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 40px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .cards {
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 90%;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+
+    .contribute-button {
+        text-decoration: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .contribution {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contribution-img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .company-detais {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-img {
+        width: 416px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .company-right {
+        width: 100%;
+    }
+
+    .details-button {
+        padding: 7px;
+        font-weight: normal;
+    }
+
+
+    .email-header {
+        text-align: center;
+    }
+
+    .email-button {
+        display: flex;
+        justify-content: center;
+        height: 35px;
+        margin: 0;
+        padding: 60px;
+    }
+
+}
+
+/* -------------
+for tablet
+-------------- */
+ssssssss
+/* 
+@media screen and (max-width:768px) {
+    .header {
+        height: 220px;
+        width: 100%;
+    }
+
+    .header-title {
+        color: white;
+        font-size: 40px;
+    }
+
+    .header-text {
+        color: white;
+        font-size: 25px;
+    }
+
+    .header-text br {
+        display: none;
+    }
+
+    .header-button {
+        font-weight: normal;
+        padding: 12px;
+    }
+
+    .donations-texts {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .donation-title {
+        color: black;
+        font-size: 40px;
+    }
+
+    .donation-text {
+        color: black;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .donation-text br {
+        display: none;
+    }
+
+    .donate-text {
+        font-size: 20px;
+    }
+
+    .donation-button {
+        font-weight: normal;
+        padding: 12px;
+    }
+
+    .plans-heading-text {
+        color: black;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .plans-text {
+        font-size: 20px;
+        text-align: center;
+        width: 600px;
+        margin-left: 40px;
+    }
+
+    .plans-text br {
+        display: none;
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .cards {
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 150px;
+        height: 385px;
+        padding: 20px;
+    }
+
+    .contribute-button {
+        text-decoration: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .contribution {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contribution-img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .company-detais {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-img {
+        width: 592px;
+        padding: 0;
+        height: 344px;
+    }
+
+    .company-right {
+        width: 100%;
+    }
+
+    .details-button {
+        padding: 12px;
+        font-weight: normal;
+    }
+
+    .email-header {
+        text-align: center;
+    }
+
+    .email-button {
+        display: flex;
+        justify-content: center;
+        height: 35px;
+        margin: 0;
+        padding: 60px;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+} */
